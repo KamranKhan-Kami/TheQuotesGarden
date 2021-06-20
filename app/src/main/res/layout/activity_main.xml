@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff2f2f2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.axdev.thequotesgarden.Board
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:background="@drawable/background">
+
+        <Button
+            android:id="@+id/btn_quotes"
+            style="@style/Board"
+            android:drawableTop="@drawable/btn_quotes"
+            android:paddingRight="30dp"
+            android:text="@string/btn_quotes" />
+
+        <Button
+            android:id="@+id/btn_jokes"
+            style="@style/Board"
+            android:drawableTop="@drawable/joke"
+            android:paddingLeft="30dp"
+            android:text="Jokes" />
+
+        <Button
+            android:id="@+id/btn_authors"
+            style="@style/Board"
+            android:drawableTop="@drawable/btn_authors"
+            android:paddingRight="30dp"
+            android:text="@string/btn_authors" />
+
+        <Button
+            android:id="@+id/btn_favorites"
+            style="@style/Board"
+            android:drawableTop="@drawable/btn_favorites"
+            android:paddingLeft="30dp"
+            android:text="@string/btn_favorites" />
+
+        <Button
+            android:id="@+id/btn_categories"
+            style="@style/Board"
+            android:drawableTop="@drawable/btn_categories"
+            android:paddingRight="30dp"
+            android:text="@string/btn_categories" />
+
+        <Button
+            android:id="@+id/btn_qteday"
+            style="@style/Board"
+            android:drawableTop="@drawable/btn_qteday"
+            android:paddingLeft="30dp"
+            android:text="@string/btn_qteday" />
+
+        <Button
+            android:id="@+id/btn_rateus"
+            style="@style/Board"
+            android:drawableTop="@drawable/btn_rateus"
+            android:paddingRight="30dp"
+            android:text="@string/btn_rateus" />
+    </com.axdev.thequotesgarden.Board>
+</RelativeLayout>

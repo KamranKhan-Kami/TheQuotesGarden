@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2f2f2"
+    tools:context="com.axdev.thequotesgarden.JokesActivity">
+
+    <LinearLayout
+        android:id="@+id/layAdsQuotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/NoJokes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        app:srcCompat="@mipmap/no_quotes" />
+
+    <ListView
+        android:id="@+id/jokesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layAdsQuotes"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:scrollbars="none" >
+    </ListView>
+
+
+
+</RelativeLayout>
