@@ -19,9 +19,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-/**
- * Created by CH_M_USMAN on 07-May-17.
- */
 public class JokesListAdapter extends ArrayAdapter<Joke>{
     int resource;
     ArrayList<Joke> jokeArrayList;

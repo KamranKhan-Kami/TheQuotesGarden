@@ -9,9 +9,7 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
-/**
- * Created by CH_M_USMAN on 07-May-17.
- */
+
 public class JokesDataSource {
     SQLiteDatabase sqLiteDatabase;
     SQLiteOpenHelper helper;

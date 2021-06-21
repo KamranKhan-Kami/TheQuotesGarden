@@ -2,9 +2,6 @@ package com.axdev.thequotesgarden;
 
 import java.io.Serializable;
 
-/**
- * Created by kamran on 19/08/2015.
- */
 public class Quote implements Serializable {
 
     // private variables

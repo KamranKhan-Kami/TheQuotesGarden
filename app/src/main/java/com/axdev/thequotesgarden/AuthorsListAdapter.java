@@ -20,11 +20,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-
-
-/**
- * Created by Amine on 19/08/2015.
- */
 public class AuthorsListAdapter extends ArrayAdapter<Quote> {
 
     Context context;

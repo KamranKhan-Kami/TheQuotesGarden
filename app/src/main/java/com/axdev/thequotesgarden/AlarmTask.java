@@ -7,9 +7,6 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 
-/**
- * Created by Amine on 19/08/2015.
- */
 public class  AlarmTask implements Runnable{
 
     private final Calendar date;

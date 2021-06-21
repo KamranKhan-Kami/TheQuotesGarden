@@ -20,10 +20,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 
-
-/**
- * Created by Amine on 19/08/2015.
- */
 public class QuotesListAdapter extends ArrayAdapter<Quote> {
     Context context;
     int layoutResourceId;

@@ -1,8 +1,6 @@
 package com.axdev.thequotesgarden;
 
-/**
- * Created by Amine on 19/08/2015.
- */
+
 public class Category {
     // private variables
 

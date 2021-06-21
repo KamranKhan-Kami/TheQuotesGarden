@@ -7,10 +7,6 @@ import android.util.Log;
 
 import com.google.android.gms.ads.InterstitialAd;
 
-/**
- * Created by CH_M_USMAN on 10-Jun-17.
- */
-
 public class AdsBroadcastReciever extends Service {
     public static InterstitialAd mInterstitialAd;
 

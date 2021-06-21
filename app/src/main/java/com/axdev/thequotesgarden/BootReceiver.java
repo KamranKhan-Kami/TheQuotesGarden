@@ -8,9 +8,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-/**
- * Created by Amine on 19/08/2015.
- */
 public class BootReceiver extends BroadcastReceiver{
     SharedPreferences preferences;
     @Override

@@ -10,12 +10,6 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.widget.RemoteViews;
 
-
-
-
-/**
- * Created by Amine on 19/08/2015.
- */
 public class WidgetProvider extends AppWidgetProvider {
 
     private Quote cn;

@@ -19,10 +19,6 @@ import java.util.Random;
 
 
 
-/**
- * Created by Amine on 19/08/2015.
- */
-
 public class NotifyService extends Service {
     public static String MyPrefrences = "MyPrefs";
     SharedPreferences sharedPreferences;

@@ -2,9 +2,6 @@ package com.axdev.thequotesgarden;
 
 import java.io.Serializable;
 
-/**
- * Created by CH_M_USMAN on 07-May-17.
- */
 public class Joke implements Serializable {
 
     int _id;

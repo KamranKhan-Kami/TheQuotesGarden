@@ -21,10 +21,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 
-
-/**
- * Created by Amine on 19/08/2015.
- */
 public class CategoriesListAdapter extends ArrayAdapter<Category> {
     Context context;
     int layoutResourceId;

@@ -1,9 +1,5 @@
 package com.axdev.thequotesgarden;
 
-/**
- * Created by Amine on 19/08/2015.
- */
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
